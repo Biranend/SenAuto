@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+:root{
+    --blanc: #FFF;
+    --noir: #000;
+    --grisfoncé: #504f4f;
+    --grisText: #504f4f;
+
+    --orange: #ff6700;
+}
+*{
+    padding: 10px;
+}
+a:hover{
+    transition: 0.5s;
+}
+nav{
+    background-color: var(--orange);
+    height: 80px;
+}
+nav div{
+    background-color: var(--grisfoncé);
+    color: var(--blanc);
+    font-family: Rochester;
+    height: 80px;
+    position: relative;
+    right: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+nav div h1{
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+
+}
+.gauche{
+    padding-right: 20px;
+}
+nav ul{
+    padding-right: 90px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--blanc);
+    font-size: 25px;
+    font-family: Inconsolata;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: var(--blanc);
+    color: var(--orange);
+    border-radius: 7px;
+    font-weight: bold;
+}
+nav ul li a i:hover{
+    color: var(--orange);
+}
+.rech{
+    padding-left: 170px;
+    padding-right: 1px;
+}
+/*------------------------End navbar---------*/
+#landing{
+    padding-top: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    position: relative;
+    right: 55px;
+}
+#obtenez h1{
+    font-weight: bold;
+    color: var(--grisText);
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 4px;
+}
+#obtenez h1 span{
+    color: var(--orange);
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+#obtenez p{
+    color: var(--noir);
+    text-align: left;
+}
+#link .a1{
+    text-decoration: none;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    margin: 10px;
+}
+#link .a1:hover{
+    background-color: var(--orange);
+    color: var(--blanc);
+}
+#link .a2{
+    text-decoration: none;
+    color: var(--blanc);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    margin: 10px;
+}
+#link .a2:hover{
+    background-color: var(--blanc);
+    color: var(--orange);
+}
+#imgLand img{
+    width: 150%;
+    position: relative;
+    top: -100px;
+}
+/*-----------------End main landing--------*/
+#voiture{
+    padding-bottom: 120px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.Titre{
+    display: inline;
+    position: relative;
+    left: 600px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--noir);
+    font-weight: bold;
+    border-top: 3px solid var(--grisfoncé);
+}
+.ContVoit{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card {
+    border: 2px solid var(--orange);
+}
+.card h1{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.card p{
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+.card img{
+    padding: 0;
+    margin: 0;
+}
+.cardText{
+    padding: 0;
+    margin: 0;
+}
+.img2{
+    height: 190px;
+}
+.voir{
+    text-decoration: none;
+    color: var(--orange);
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+}
+.voir:hover{
+    color: var(--grisfoncé);
+}
+.autmods{
+    border: 2px solid var(--orange);
+    width: 210px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+}
+.autmods:hover{
+    background-color: var(--orange);
+}
+.models{
+    text-decoration: none;
+    color: var(--orange);
+}
+.models:hover{
+    background-color: var(--orange);
+    color: var(--blanc);
+}
+/*-------------------End section voiture----------*/
+.form{
+    background-color: var(--orange);
+    height: 550px;
+    position: relative;
+    left: 11px;
+}
+form{
+    position: relative;
+    left: 50px;
+}
+label{
+    color: var(--blanc);
+    padding: 0;
+    font-size: 20px;
+}
+input{
+    padding: 0;
+}
+.contnous{
+    margin-top: 30px;
+    text-align: center;
+    border: 2px solid var(--blanc);
+    border-radius: 5px;
+    color: var(--blanc);
+    width: 480px;
+    position: relative;
+    left: 8px;
+}
+.contnous:hover{
+    background-color: var(--blanc);
+    color: var(--orange);
+}
+.contnous a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--blanc);
+}
+.contnous a:hover{
+    color: var(--orange);
+}
+/*------------------End form-----------------*/
+.pad{
+    padding-top: 50px;
+}
+.imgCon{
+    position: relative;
+    top: -20px;
+    right: 11px;
+}
+.imgCon img{
+    width: 106%;
+    height: 108%;
+}
+/*--------------End section contact-------------*/
+footer{
+    height: 80px;
+    background-color: var(--orange);
+    margin-top: 70px;
+}
+.titrefooter{
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: -10px;
+    background-color: var(--grisfoncé);
+    display: inline-block;
+    right: 15px;
+}
+footer h1{
+    display: inline;
+    font-family: Rochester;
+    height: 85px;
+    background-color: var(--grisfoncé);
+    color: var(--orange);
+    font-size: 45px;
+    position: relative;
+    top: 3px;
+    right: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.icons{
+    text-align: center;
+    position: relative;
+    top: -75px;
+    left: 150px;
+}
+footer span{
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
+i{
+    color: var(--blanc);
+    padding-right: 15px;
+    padding-left: 15px;
+}
