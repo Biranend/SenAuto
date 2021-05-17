@@ -28,6 +28,10 @@ nav div{
     right: 10px;
     padding-right: 90px;
     padding-left: 90px;
+    -webkit-clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%); 
+    clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+    
+
 }
 nav div h1{
     font-size: 50px;
@@ -249,13 +253,15 @@ footer{
 }
 .titrefooter{
     height: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
     top: -10px;
     background-color: var(--grisfoncé);
     display: inline-block;
     right: 15px;
+    -webkit-clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%); 
+    clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
 }
 footer h1{
     display: inline;
@@ -273,8 +279,8 @@ footer h1{
 .icons{
     text-align: center;
     position: relative;
-    top: -75px;
-    left: 150px;
+    top: -85px;
+    left: 70px;
 }
 footer span{
     padding: 0;
